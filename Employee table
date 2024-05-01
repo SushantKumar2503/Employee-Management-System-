@@ -1,0 +1,13 @@
+create database ems;
+use ems;
+create table employee (id int primary key,
+name varchar(100) not null,
+address varchar(255) not null,
+contact varchar(10) not null,
+email varchar(100) not null,
+designation varchar(100) not null,
+department varchar(100) not null,
+joinDate varchar(10) not null,
+wageRate int not null,
+workedHour int not null
+);
